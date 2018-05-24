@@ -1,0 +1,80 @@
+.container{
+
+max-width: 500px;
+min-width: 500px;
+border-radius: 12px;
+margin-left: 300px;
+}
+
+.what-should-i-do-button{
+    border-radius: 12px;
+    margin-right: 117px;
+    padding: 15px 32px;
+background:black;
+    color: rgb(119, 192, 192);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-width: 0px;
+}
+.what-should-i-do-button:disabled{
+    opacity: .5;
+}
+.remove-all-button{
+    border-radius: 12px;
+    padding: 15px 32px;
+    background: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(119, 192, 192);
+    cursor: pointer;
+    border-width: 0px;
+}
+.remove-all-button:disabled{
+    opacity: .5;
+}
+
+.textbox{
+    border-radius:12px;
+    width:394px;
+    padding: 10px;
+}
+.textbox:focus{
+ background:grey;
+ 
+}
+.submit-button{
+    border-radius: 12px;
+    background:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 15px;
+    color: rgb(119, 192, 192);
+    cursor: pointer;
+    border-width: 0px;
+
+}
+.msg{
+    font-family: Courier ;
+    color: rgb(119, 192, 192);
+   overflow: auto;
+    
+}
+.remove{
+    border-radius: 12px;
+    background:black;
+    cursor: pointer;
+    border-width: 0px;
+    color: rgb(119, 192, 192);
+}
+.padd{
+    margin-bottom: 20px;
+    font-family: georgia;
+    padding-bottom: 12px;
+    max-width: 464px;
+    min-width:464px;
+    display: flex;
+   justify-content: space-between;
+ border-bottom: 1px solid black;
+}
+
+.list-container{
+    max-width: 200px;
+}

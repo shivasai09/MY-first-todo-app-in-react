@@ -1,0 +1,29 @@
+.header{
+    background:black;
+   margin-bottom: 150px;
+ 
+
+}
+.header__title{
+    color: white;
+    font-size: 50px;
+    font-family:  Helvetica;
+    margin: auto;
+    max-width: 500px;
+    min-width: 500px;
+    
+}
+.header__subtitle{
+    color: rgb(119, 192, 192);
+    font-family: courier;
+    margin: 0px;
+    max-width: 1346px;
+    min-width: 1346px;
+}
+.header_container{
+    max-width: 500px;
+    padding-left: 300px;
+}
+body{
+    background: darkblue;
+}
